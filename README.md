@@ -23,7 +23,7 @@ A modern and interactive portfolio website built with **React**, **TailwindCSS**
 1. Clone the repository:
    ```bash
    git clone https://github.com/Karelaking/GFG.git
-   cd <GFG>
+   cd GFG
 
 2. Install dependencies:
 ```bash
