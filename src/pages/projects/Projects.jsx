@@ -1,13 +1,8 @@
 import React from "react";
-import "aos/dist/aos.css";
-import AOS from "aos";
 import PageTitle from "../../components/page_title/PageTitle";
 import Card from "../../components/card/Card";
 
 const Projects = () => {
-  React.useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   const projects = [
     {
