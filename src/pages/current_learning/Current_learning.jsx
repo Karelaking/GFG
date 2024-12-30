@@ -1,13 +1,8 @@
 import React from "react";
-import "aos/dist/aos.css";
-import AOS from "aos";
 import Card from "../../components/card/Card";
 import PageTitle from "../../components/page_title/PageTitle";
 
 const CurrentLearning = () => {
-  React.useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
 
   const learningTopics = [
     {
