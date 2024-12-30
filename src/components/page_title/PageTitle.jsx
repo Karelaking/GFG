@@ -1,11 +1,16 @@
 import React from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
-const PageTitle = ({title, subtitle}) => {
+const PageTitle = ({ title }) => {
+  React.useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <section className="py-[70px] dark:bg-dark">
-      <div className="mx-auto px-4 sm:container">
+    <section className="py-12" data-aos="fade-up">
+      <div className="sm:container">
         <div className="border-l-[5px] border-primary pl-5">
-          <h1 className="mb-2 text-2xl font-semibold text-black">
+          <h1 className="text-4xl font-bold text-gray-800">
             {title}
           </h1>
         </div>
