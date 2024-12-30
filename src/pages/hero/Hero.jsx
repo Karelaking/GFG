@@ -62,16 +62,16 @@ const Hero = () => {
         data-aos="fade-up"
       >
         <div className="flex flex-wrap -mx-4">
-          <div className="w-full px-4">
-            <div className="mx-auto mb-[60px] max-w-[510px]">
+          <div className="w-full">
+            <div className="mx-auto mb-[60px] max-w-[850px]">
               <span
-                className="text-primary mb-2 block text-lg font-semibold tracking-wide uppercase"
+                className="text-primary mb-4 block text-2xl font-semibold tracking-wide uppercase"
                 data-aos="fade-left"
               >
                 🌟 Our Portfolio
               </span>
               <h2
-                className="text-white mb-5 text-5xl leading-[1.208] font-extrabold font-Bebas-neue sm:text-6xl transform transition-transform duration-700 ease-out hover:scale-110"
+                className="text-white mb-5 leading-[1.208] font-extrabold font-Bebas-neue sm:text-7xl transform transition-transform duration-700 ease-out hover:scale-110"
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out"
@@ -80,15 +80,15 @@ const Hero = () => {
               </h2>
 
               <p
-                className="text-gray-300 text-sm px-5 font-Roboto"
+                className="text-gray-300 text-2xl font-Roboto"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 ✨ Explore a world of creativity, innovation, and expertise! 🚀
                 Each project reflects passion and cutting-edge ideas 🌐🎨. From
                 bold solutions 💡 to unique designs 🎥, we aim to inspire and
-                ignite imaginations 🔥. Let’s shape a brighter, innovative
-                tomorrow together. 🌟 Dive in and discover the magic! ✨
+                ignite imaginations 🔥.Let’s shape a brighter, innovative
+                tomorrow together.🌟 Dive in and discover the magic! ✨
               </p>
             </div>
             <div
