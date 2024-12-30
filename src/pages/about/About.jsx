@@ -49,10 +49,10 @@ const About = () => {
 
   return (
       <section
-        className="w-screen h-screen px-16 bg-gradient-to-br from-gray-50 to-gray-200"
+        className="w-screen flex items-center h-screen bg-gradient-to-br from-gray-50 to-gray-200"
         id="about"
       >
-        <div className="max-w-5xl mx-auto">
+        <div className="mx-auto px-24">
           {/* Page Title */}
           <div data-aos="fade-down">
             <PageTitle title="👋 About Me" />
@@ -60,7 +60,7 @@ const About = () => {
 
           {/* Heading */}
           <h1
-            className="text-4xl font-bold pb-6 text-gray-900"
+            className="text-6xl font-bold pb-10 px-8 mt-20 text-gray-900"
             data-aos="fade-up"
           >
             👩‍💻 Mradul Kumar Katiyar
@@ -68,7 +68,7 @@ const About = () => {
 
           {/* Short Intro */}
           <p
-            className="font-semibold text-lg text-gray-700 flex items-center gap-2 pb-4"
+            className="font-semibold text-2xl px-8 text-gray-700 flex items-center gap-2 pb-8"
             data-aos="fade-right"
           >
             👨‍🎓 Computer Science Student &nbsp;|| &nbsp;🐍 Python Developer
@@ -78,7 +78,7 @@ const About = () => {
 
           {/* About Text */}
           <p
-            className="font-normal text-xl font-Roboto text-gray-600 leading-7"
+            className="font-normal text-3xl px-8 font-Roboto text-gray-600"
             data-aos="fade-left"
           >
             🌟 Passionate Programmer | Tech Explorer | Lifelong Learner

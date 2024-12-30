@@ -43,8 +43,8 @@ const Contact = () => {
       id="contact"
     >
       <PageTitle title="📩 Contact Me" />
-      <div className="max-w-3xl mx-auto">
-        <p className="text-center mb-8 font-Roboto">
+      <div className="max-w-3xl mx-auto mt-16">
+        <p className="text-center mb-10 text-xl font-Roboto">
           Have questions or want to collaborate? Reach out to me via this form!
         </p>
         {successMessage && (

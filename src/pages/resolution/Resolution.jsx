@@ -39,8 +39,8 @@ const Resolutions = () => {
   return (
     <section className="min-h-screen bg-white text-black py-12 px-6">
         <PageTitle title="🌟 Resolutions for 2025" />
-      <div className="max-w-4xl flex flex-col mx-auto">
-        <p className="text-lg mb-10 text-gray-600 text-center font-Roboto">
+      <div className="max-w-7xl flex flex-col mx-auto">
+        <p className="text-xl mb-10 text-gray-600 text-center font-Roboto">
           These resolutions define my commitment to continuous improvement and
           achieving greatness.
         </p>
