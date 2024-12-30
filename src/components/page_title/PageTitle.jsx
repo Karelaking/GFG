@@ -7,10 +7,10 @@ const PageTitle = ({ title }) => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <section className="py-12" data-aos="fade-up">
+    <section className="py-10 px-0 lg:px-10" data-aos="fade-up">
       <div className="sm:container">
         <div className="border-l-[5px] border-primary pl-5">
-          <h1 className="text-4xl font-bold text-gray-800">
+          <h1 className="lg:text-4xl text-2xl font-bold text-gray-800 uppercase">
             {title}
           </h1>
         </div>
