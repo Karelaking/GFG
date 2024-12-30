@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Portfolio Website 💻🎨",
       description:
         "A responsive portfolio showcasing my skills, projects, and experience with React and TailwindCSS.",
-      link: "https://yourportfolio.com",
+      link: "https://github.com/Karelaking/Portfolio.git",
     },
     {
       title: "Weather Info App 🌤️📱",
@@ -21,13 +21,13 @@ const Projects = () => {
       title: "E-commerce API 🛒🛠️",
       description:
         "A RESTful API for an e-commerce platform built with Node.js, Express, and MongoDB.",
-      link: "https://ecommerceapi.com",
+      link: "https://github.com/Karelaking/ecommerce-api.git",
     },
     {
       title: "KinoCircle 🎥🕊️",
       description:
         "A synchronized movie streaming platform for watching content with friends online.",
-      link: "https://kinocircle.com",
+      link: "https://github.com/Karelaking/KinoCircle.git",
     },
   ];
 
